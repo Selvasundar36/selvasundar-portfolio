@@ -100,7 +100,7 @@ body {
 
 body {
   background: #0b0a15;
-  font-family: "Martel", serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 1.8rem;
   font-style: normal;
   font-weight: normal;
@@ -1725,8 +1725,8 @@ input::-moz-focus-inner {
 }
 
 .header-nav a {
-  color: rgb(255, 255, 255);
-    background-color: #000000;
+  color: rgb(253, 252, 252);
+    background-color: #403a3a;
     border-radius: 20px;
     padding: 10px;
 }
@@ -1834,7 +1834,7 @@ input::-moz-focus-inner {
  * ## download resume button
  * ------------------------------------------------------------------- */
 .header-content .btn {
-  border-color: #060606;
+  border-color: #f7f5f5;
   color: #ffffff;
   margin: 0;
   padding: 0 2rem;
