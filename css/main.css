@@ -1,61 +1,4 @@
-/* =================================================================== 
- *  Ethos Main Stylesheet
- *  Template Ver. 1.0.0
- *  11-05-2019
- *  ------------------------------------------------------------------
- *
- *  TOC:
- *  # custom block grid STACK breakpoints
- *  # base style overrides
- *    ## links
- *  # typography & general theme styles
- *    ## Lists
- *    ## responsive video container
- *    ## floated image 
- *    ## tables
- *    ## Spacing
- *  # preloader
- *  # forms
- *    ## Style Placeholder Text
- *    ## Change Autocomplete styles in Chrome
- *  # buttons
- *  # additional components
- *    ## additional typo styles 
- *    ## skillbars
- *    ## alert box 
- *  # Common and Reusable Styles
- *  # site header
- *    ## header logo
- *    ## main navigation
- *    ## mobile menu toggle
- *    ## download resume button
- *  # hero
- *    ## hero social
- *    ## hero scroll
- *    ## animate intro content
- *    ## animations
- *  # about section
- *    ## career position
- *  # services section
- *    ## services list
- *  # portfolio
- *    ## portfolio list
- *  # testimonials
- *  # CTA
- *  # footer
- *    ## contact block
- *    ## copyright
- *    ## go top
- *
- * =================================================================== */
 
-
-
-
-/* ===================================================================
- * # custom block grid STACK breakpoints
- *
- * ------------------------------------------------------------------- */
 @media screen and (max-width:1000px) {
   .block-1000-full > .column {
     -ms-flex: 0 0 100%;
@@ -2828,7 +2771,7 @@ html.no-csstransitions .hero-content {
  * ------------------------------------------------------------------- */
 .s-portfolio {
   padding-top: 24rem;
-  padding-bottom: 0;
+  padding-bottom: 0rem;
   background-color: #ffffff;
   position: relative;
 }
@@ -2849,11 +2792,14 @@ html.no-csstransitions .hero-content {
  * ------------------------------------------------------------------- */
 .s-portfolio__list {
   max-width: 1240px;
+  
 }
 
 .folio-item {
   position: relative;
   overflow: hidden;
+  padding: 30px;
+  /* border: crimson solid 20px ; */
 }
 
 .folio-item__caption {
@@ -2909,6 +2855,7 @@ html.no-csstransitions .hero-content {
 
 .folio-item__thumb img {
   vertical-align: bottom;
+
 }
 
 /* portfolio info
@@ -3263,11 +3210,13 @@ html.no-csstransitions .hero-content {
  * # footer
  *
  * ------------------------------------------------------------------- */
+
 .s-footer {
   padding-top: 24rem;
   padding-bottom: 8rem;
   background-color: #0b0a15;
   position: relative;
+   margin-top: 8rem;
 }
 
 .s-footer .right-vert-line {
